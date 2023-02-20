@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-bottom: 1rem;
+  background-color: #f8f9fa;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+th {
+  background-color: #6c757d;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e9ecef;
+}
+
+td:last-child {
+  text-align: center;
+}
+.search-bar {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 16px;
+  width: 300px;
+  margin: 0 auto;
+}
